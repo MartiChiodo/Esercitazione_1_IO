@@ -23,7 +23,7 @@ int main(){
     std::string filenameOU = "result.csv";
     std::ifstream ifs(filenameIN);
     std::ofstream ofs(filenameOU);
-    double somma=0; //mi creo una varibile in cui andrò a salvarmi mano mano la somma dei valori che leggo da file
+    double somma=0; //mi creo una varibile in cui andrò a salvarmi man mano la somma dei valori che leggo da file
     int cont = 0; //mi creo una variabile che mi indicherà quanti valori ho sommato
 
     if (ifs.is_open()){
