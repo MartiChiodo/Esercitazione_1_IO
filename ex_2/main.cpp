@@ -40,7 +40,7 @@ int main(){
             //stampo la media su output
             double media;
             media = calcolo_media(somma, cont);
-            ofs << std::setiosflags(std::ios::scientific) << media << std::endl;
+            ofs << std::setiosflags(std::ios::scientific) << std::setprecision(16) << media << std::endl;
         }
 
     }
